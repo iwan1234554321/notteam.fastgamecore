@@ -85,7 +85,7 @@ namespace Notteam.CarPrototype
             
             _steeringValue = Mathf.MoveTowards(_steeringValue, _inputCar.Steering, steeringSpeed);
 
-            _steeringAngle = dataCarControl.Data.SteeringMaxAngle * (dataCarControl.Data.MaxAngleMultiplyByMaxSpeed.Data.Curve.Evaluate(_inputCar.HandBrake == 1 ? 0.0f : _velocitySpeedNormalized) * _steeringValue);
+            _steeringAngle = dataCarControl.Data.SteeringMaxAngle * (dataCarControl.Data.MaxAngleMultiplyByMaxSpeed.Data.Curve.Evaluate(_velocitySpeedNormalized) * _steeringValue);
         }
         
         private void ControlMovementValue()
