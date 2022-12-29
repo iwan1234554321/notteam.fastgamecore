@@ -1,0 +1,17 @@
+{
+    "name": "Notteam.CarPrototype",
+    "rootNamespace": "Notteam.CarPrototype",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:77acad2059fbb9644a2c5b72cc2bdc65"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
