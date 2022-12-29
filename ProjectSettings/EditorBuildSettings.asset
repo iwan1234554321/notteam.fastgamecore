@@ -14,4 +14,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Plugins/Notteam.GameCoreV2/Scenes/ExampleTwo.unity
     guid: 020b621fa4cf28d45852bd29830aec7c
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: a5f256483b550ef4795c3ecf6714e768, type: 2}
