@@ -52,3 +52,4 @@ Temp
 Library
 *.csproj
 *.sln
+obj
