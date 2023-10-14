@@ -1,0 +1,8 @@
+# Created by Kenney (www.kenney.nl)
+
+newmtl cone
+Kd 0.9607843 0.4313726 0.145098
+
+newmtl pavement
+Kd 0.7568628 0.7568628 0.8
+

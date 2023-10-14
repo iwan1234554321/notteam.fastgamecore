@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76408e97924c7bc4293810b9761d11e7, type: 3}
+  m_Name: CarLanciaControlData
+  m_EditorClassIdentifier: 
+  data:
+    movementMaxSpeed: 100
+    steeringMaxAngle: 35
+    mobilitySpeed: 2
+    movementMaxMobilitySpeed: 3
+    steeringMaxMobilitySpeed: 3
+    movementMinMobilitySpeed: 0.2
+    steeringMinMobilitySpeed: 0.5
+    accelerationInputSpeed: 0.8
+    steeringInputSpeed: 5
+    handBrakeInputSpeed: 0.15
+    brakeInputSpeed: 0.8
+    maxAngleMultiplyByMaxSpeed: {fileID: 11400000, guid: c4e9d515532e8f947aa22f3523ac13c3, type: 2}
+    steeringSpeedMultiplyByMaxSpeed: {fileID: 11400000, guid: f7ceae41d0f48144886a6dba92f77189, type: 2}
+    accelerationInputSpeedMultiplyByMaxSpeed: {fileID: 11400000, guid: da3351af7063fb544829288ecec69fee, type: 2}
+    handBrakeInputSpeedMultiplyByMaxSpeed: {fileID: 11400000, guid: 1c82d7f705a70f2479122243d169dd7e, type: 2}
+    brakeInputSpeedMultiplyByMaxSpeed: {fileID: 11400000, guid: cbedcd33f2bd2e24caf1546d399eca32, type: 2}

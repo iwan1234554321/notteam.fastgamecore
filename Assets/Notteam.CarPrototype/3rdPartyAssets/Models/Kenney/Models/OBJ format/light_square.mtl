@@ -1,0 +1,8 @@
+# Created by Kenney (www.kenney.nl)
+
+newmtl pavement
+Kd 0.7568628 0.7568628 0.8
+
+newmtl light
+Kd 0.945098 0.9490196 0.9647059
+
