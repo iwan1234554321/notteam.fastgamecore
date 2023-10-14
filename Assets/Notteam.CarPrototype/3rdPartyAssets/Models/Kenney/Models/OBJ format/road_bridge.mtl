@@ -1,0 +1,14 @@
+# Created by Kenney (www.kenney.nl)
+
+newmtl line
+Kd 0.5490196 0.5764706 0.6784314
+
+newmtl asphalt
+Kd 0.4313726 0.454902 0.5294118
+
+newmtl pavement
+Kd 0.7568628 0.7568628 0.8
+
+newmtl asphaltEdge
+Kd 0.3215686 0.3372549 0.3960784
+

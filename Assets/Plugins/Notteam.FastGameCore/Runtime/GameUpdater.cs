@@ -8,9 +8,6 @@ namespace Notteam.FastGameCore
     [DefaultExecutionOrder(0)]
     public class GameUpdater : MonoBehaviour
     {
-        [SerializeField] private string sceneName;
-        [SerializeField] private bool sceneLoad;
-        
         private bool _collectedAllSystems;
         private bool _createdGameSceneBridge;
         
@@ -18,8 +15,6 @@ namespace Notteam.FastGameCore
         
         private List<GameUpdaterSystem> _updateSystems = new();
 
-        public bool CreatedGameSceneBridge => _createdGameSceneBridge;
-        
         public GameSceneBridge SceneBridge => _sceneBridge;
         public static GameUpdater Instance { get; private set; }
 
@@ -96,13 +91,6 @@ namespace Notteam.FastGameCore
         
         private void Update()
         {
-            if (sceneLoad)
-            {
-                SceneManager.LoadScene(sceneName);
-                
-                sceneLoad = false;
-            }
-            
             if (_collectedAllSystems & _createdGameSceneBridge)
             {
                 foreach (var system in _updateSystems)
