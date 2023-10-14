@@ -1,0 +1,14 @@
+{
+    "name": "Notteam.FastGameCore",
+    "rootNamespace": "Notteam.FastGameCore",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
